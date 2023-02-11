@@ -3,8 +3,10 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{52505923-D87A-48BE-A78D-81AF72653A79}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Music\Fleet Foxes - First Collection 2006-2009\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\G14\Music\Radiohead - A Moon Shaped Pool (WAV)\"/>
 				<Property Name="Event Action List\{27847760-F820-48B4-9503-2C8B8B243BC9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6C7B4197-3288-437A-8683-4B802FD0A30A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BD1612E4-8497-4F46-AD06-E73299D47A2C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
@@ -32,7 +34,7 @@
 				<Property Name="SoundBank Manager\x64_Expand Folders Auto" Type="string" Value=""/>
 				<Property Name="SoundBank Manager\x64_Expand Folders User" Type="string" Value="BwAAAA=="/>
 				<Property Name="SoundBank Manager\x64_Expand States Auto" Type="string" Value=""/>
-				<Property Name="SoundBank Manager\x64_Expand States User" Type="string" Value=""/>
+				<Property Name="SoundBank Manager\x64_Expand States User" Type="string" Value="hdzs69fYtkS0KvnANYT5jA=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>

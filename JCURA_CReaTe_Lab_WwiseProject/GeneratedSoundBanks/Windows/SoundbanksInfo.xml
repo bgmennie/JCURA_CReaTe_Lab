@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5EDFCF09-8F6B-67B8-DEBD-B49CAD319E2A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9FDCA45E-DFBD-5A88-3FB2-194F3689DBDB}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -31,23 +31,23 @@
 				</Bus>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{926F295D-A4D4-BF44-E721-78EFB4F69A9E}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{CE03021F-D0E9-256A-FD23-CB74DA8E736F}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
-				<File Id="177378277" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises.wav</ShortName>
-					<CachePath>SFX/Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises_560A3EFC.wem</CachePath>
+				<File Id="100261595" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>01 - Burn The Witch.wav</ShortName>
+					<CachePath>SFX/01 - Burn The Witch_BD05606E.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3960658436" Name="Audio_Mic_Input" DurationType="OneShot" DurationMin="4.7452426" DurationMax="4.7452426">
+				<Event Id="3211564518" Name="Play_Test_Sound" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="177378277"/>
+						<MediaRef Id="100261595"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{396A67A6-72BF-190C-4C9E-AF75A7AAF49C}</FileHash>
+	<FileHash>{CC6D98CC-D0EE-B084-F0B1-BB816F127F1B}</FileHash>
 </SoundBanksInfo>

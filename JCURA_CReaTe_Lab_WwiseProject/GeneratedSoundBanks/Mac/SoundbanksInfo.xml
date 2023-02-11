@@ -9,23 +9,45 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{83FBAA39-F7FC-1009-11D5-2428E8618351}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="3546444380" Name="Big_Garage1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{1CDD4BCB-844F-134C-500B-F77E425889C3}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{5CF70405-90AE-4EF7-5F1A-07CD678A72AA}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
+			<Media>
+				<File Id="100261595" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>01 - Burn The Witch.wav</ShortName>
+					<CachePath>SFX/01 - Burn The Witch_72682890.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3211564518" Name="Play_Test_Sound" DurationType="OneShot" DurationMin="0.8333179" DurationMax="0.8333179">
+					<MediaRefs>
+						<MediaRef Id="100261595"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AD4E83EB-EB68-9831-B7B6-E1499B5EAE32}</FileHash>
+	<FileHash>{4D09F5C7-E9BE-5CE3-79B3-2E66F4036821}</FileHash>
 </SoundBanksInfo>

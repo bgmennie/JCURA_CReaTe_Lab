@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3211564518	Play_Test_Sound			\Default Work Unit\Play_Test_Sound	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	100261595	Test_Sound	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Unity\JCURA_CReaTe_Lab\JCURA_CReaTe_Lab_WwiseProject\.cache\Mac\SFX\01 - Burn The Witch_72682890.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test_Sound		147088
+

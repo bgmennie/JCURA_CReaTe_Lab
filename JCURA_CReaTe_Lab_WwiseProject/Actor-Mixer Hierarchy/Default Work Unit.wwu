@@ -3,20 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{DE946210-DC14-4F31-8A99-3EEAB156ED2A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Test_Sound" ID="{00DC40B0-BDCD-4943-B9A5-19F0A6525E95}" ShortID="503391956">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1A525A11-AD88-4984-9087-9A661091C840}"/>
-						</Reference>
-						<Reference Name="Effect0" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
-							<ObjectRef Name="New_Stereo_Delay" ID="{A12CF2CB-8DC7-4A2E-88FC-B3DF0634C2DD}" WorkUnitID="{3850E3AA-FA54-4095-8159-70DB4E7C5DA8}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0CE0ED4D-EBF6-49D0-8CE5-FB4C137DA5E9}"/>
-						</Reference>
-					</ReferenceList>
-				</Sound>
-				<Sound Name="Test_Sound_2" ID="{37FC1AAF-5240-4AAD-9EDF-C8F9D809D56E}" ShortID="224192496">
+				<Sound Name="Mic_input" ID="{AD068738-6441-4239-84E7-770FC49A9554}" ShortID="682446269">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1A525A11-AD88-4984-9087-9A661091C840}"/>
@@ -26,21 +13,43 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises" ID="{05BECE10-61B2-4704-A654-CD3A8DDDD939}">
+						<SourcePlugin Name="Audio Input" ID="{4764ED7A-A903-4169-990E-955E812DEA61}" ShortID="487275824" PluginName="Wwise Audio Input" CompanyID="0" PluginID="200">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Audio Input" ID="{4764ED7A-A903-4169-990E-955E812DEA61}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Test_Sound" ID="{34D96B92-024F-49DC-9C8E-E7F60CE85AAD}" ShortID="128591662">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1A525A11-AD88-4984-9087-9A661091C840}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0CE0ED4D-EBF6-49D0-8CE5-FB4C137DA5E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="01 - Burn The Witch" ID="{742864E4-E707-4063-B9D2-6AAF9418F751}">
 							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0686292167595651"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.131110626025805"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="1.14908803476569"/>
-								<Property Name="TrimEnd" Type="Real64" Value="5.8943307923073"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.833317864790786"/>
 							</PropertyList>
 							<Language>SFX</Language>
-							<AudioFile>Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises.wav</AudioFile>
+							<AudioFile>01 - Burn The Witch.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="177378277"/>
+								<MediaID ID="100261595"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises" ID="{05BECE10-61B2-4704-A654-CD3A8DDDD939}" Platform="Linked"/>
+						<ActiveSource Name="01 - Burn The Witch" ID="{742864E4-E707-4063-B9D2-6AAF9418F751}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
