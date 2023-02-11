@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DE946210-DC14-4F31-8A99-3EEAB156ED2A}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{DE946210-DC14-4F31-8A99-3EEAB156ED2A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Test_Sound" ID="{00DC40B0-BDCD-4943-B9A5-19F0A6525E95}" ShortID="503391956">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1A525A11-AD88-4984-9087-9A661091C840}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3">
+							<ObjectRef Name="New_Stereo_Delay" ID="{A12CF2CB-8DC7-4A2E-88FC-B3DF0634C2DD}" WorkUnitID="{3850E3AA-FA54-4095-8159-70DB4E7C5DA8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0CE0ED4D-EBF6-49D0-8CE5-FB4C137DA5E9}"/>
+						</Reference>
+					</ReferenceList>
+				</Sound>
+				<Sound Name="Test_Sound_2" ID="{37FC1AAF-5240-4AAD-9EDF-C8F9D809D56E}" ShortID="224192496">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1A525A11-AD88-4984-9087-9A661091C840}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0CE0ED4D-EBF6-49D0-8CE5-FB4C137DA5E9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises" ID="{05BECE10-61B2-4704-A654-CD3A8DDDD939}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.14908803476569"/>
+								<Property Name="TrimEnd" Type="Real64" Value="5.8943307923073"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="177378277"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises" ID="{05BECE10-61B2-4704-A654-CD3A8DDDD939}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

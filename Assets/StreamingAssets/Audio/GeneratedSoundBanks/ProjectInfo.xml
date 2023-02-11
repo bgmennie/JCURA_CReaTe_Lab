@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="JCURA_CReaTe_Lab_WwiseProject" GUID="{C30F4273-C939-4A80-A7F8-58FB90749C9A}" Generator="2022.1.1.8100"/>
+	<CacheRoot>../../../../JCURA_CReaTe_Lab_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{DAD43FB9-C71B-4492-AAF5-B73ECBF3CAC2}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../JCURA_CReaTe_Lab_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{A7A99910-1F5F-4874-9F42-12C611E6EB6E}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../JCURA_CReaTe_Lab_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{245090DD-7E57-4F62-A59B-EB0A14C9BEB9}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{F7C819C5-E216-3BE9-3441-CE49D11F81C7}</FileHash>
+</ProjectInfo>

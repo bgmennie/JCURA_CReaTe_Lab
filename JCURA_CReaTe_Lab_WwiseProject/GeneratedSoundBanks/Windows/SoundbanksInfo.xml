@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{5EDFCF09-8F6B-67B8-DEBD-B49CAD319E2A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3546444380" Name="Big_Garage1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{926F295D-A4D4-BF44-E721-78EFB4F69A9E}">
+			<ShortName>Main_Soundbank</ShortName>
+			<Path>Main_Soundbank.bnk</Path>
+			<Media>
+				<File Id="177378277" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises.wav</ShortName>
+					<CachePath>SFX/Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises_560A3EFC.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3960658436" Name="Audio_Mic_Input" DurationType="OneShot" DurationMin="4.7452426" DurationMax="4.7452426">
+					<MediaRefs>
+						<MediaRef Id="177378277"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{396A67A6-72BF-190C-4C9E-AF75A7AAF49C}</FileHash>
+</SoundBanksInfo>

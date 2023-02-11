@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3960658436	Audio_Mic_Input			\Default Work Unit\Audio_Mic_Input	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	177378277	Test_Sound_2	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Unity\JCURA_CReaTe_Lab\JCURA_CReaTe_Lab_WwiseProject\.cache\Windows\SFX\Fleet Foxes - First Collection 2006-2009 - 01 Sun It Rises_560A3EFC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test_Sound_2		837156
+

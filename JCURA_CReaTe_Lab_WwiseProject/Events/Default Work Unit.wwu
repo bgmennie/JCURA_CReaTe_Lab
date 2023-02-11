@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ED1A0A4D-EB4A-4230-9A9F-A1333E81D35D}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{ED1A0A4D-EB4A-4230-9A9F-A1333E81D35D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Audio_Mic_Input" ID="{27847760-F820-48B4-9503-2C8B8B243BC9}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
